@@ -1,10 +1,10 @@
 import React from "react";
 import Statistics from "./Statistics";
 
-function StatisticsList({ items }) {
+function StatisticsList({ stats }) {
   return (
     <ul>
-      {items.map((item) => (
+      {stats.map((item) => (
         <li key={item.id}>
           <Statistics label={item.label} percentage={item.percentage} />
         </li>

@@ -30,7 +30,7 @@ const Statistics = ({ id, label, percentage }) => {
 
 Statistics.propTypes = {
   label: PropTypes.string,
-  percentage: PropTypes.string,
+  percentage: PropTypes.number,
 };
 
 export default Statistics;

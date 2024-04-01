@@ -7,9 +7,6 @@ import Profile from "./components/profile/Profile";
 import StatisticsList from "./components/statistics/StatisticsList";
 import FriendsList from "./components/friends/FriendsList";
 
-
-
-
 function App() {
   return (
     <div>

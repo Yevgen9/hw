@@ -3,15 +3,13 @@ import PropTypes from "prop-types";
 
 const Friends = ({ id, name, avatar, isOnline }) => {
   return (
-    <>
-      <ul>
-        <li className="item">
-          <span className={isOnline ? "Online" : "Offline"}></span>
-          <img className="avatar" src={avatar} alt={name} width="48" />
-          <p className={name}></p>
-        </li>
-      </ul>
-    </>
+    <ul>
+      <li className="item">
+        <span className="status">{isOnline ? "Online" : "Offline"}</span>
+        <img className="avatar" src={avatar} alt={name} width="48" />
+        <p className={name}></p>
+      </li>
+    </ul>
   );
 };
 
