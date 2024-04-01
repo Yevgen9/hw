@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const Statistics = ({ id, label, percentage }) => {
-    
   return (
     <section className="statistics">
       <h2 className="title">Upload stats</h2>
@@ -31,7 +30,7 @@ const Statistics = ({ id, label, percentage }) => {
 
 Statistics.propTypes = {
   label: PropTypes.string,
-  percentage: PropTypes.number,
+  percentage: PropTypes.string,
 };
 
 export default Statistics;

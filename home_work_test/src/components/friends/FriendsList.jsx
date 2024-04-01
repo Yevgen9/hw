@@ -8,7 +8,7 @@ function FriendsList({ items }) {
         <li key={item.id}>
           <Friends
             avatarUrl={item.avatar}
-            name={item.name}
+            nameFriend={item.name}
             isOnline={item.isOnline}
           />
         </li>
